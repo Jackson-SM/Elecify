@@ -5,7 +5,7 @@ const animationColorsGradient = keyframes({
     backgroundPosition: '0',
   },
   '100%': {
-    backgroundPosition: '300%',
+    backgroundPosition: '100%',
   },
 });
 
@@ -24,6 +24,21 @@ export const StyledTextGradient = styled('span', {
 
   variants: {
     themeGradient: {
+      with_color_dark: {
+        WebkitBackgroundClip: 'initial',
+        WebkitTextFillColor: 'initial',
+        color: '$textDark',
+      },
+      with_color_dark_2: {
+        WebkitBackgroundClip: 'initial',
+        WebkitTextFillColor: 'initial',
+        color: '$textDark2',
+      },
+      without_color: {
+        WebkitBackgroundClip: 'initial',
+        WebkitTextFillColor: 'initial',
+        color: '$text',
+      },
       gradient1: {
         linearGradient: 'to right, $primary, $primary3',
       },
@@ -37,8 +52,29 @@ export const StyledTextGradient = styled('span', {
         backgroundSize: '300%',
         backgroundPosition: '0',
         linearGradient:
-          'to right, $primary 50%, $primary3, $tertiary 100%, $tertiary3, $secondary 50%, $secondary3',
-        animation: `${animationColorsGradient} ease-in-out 10s infinite`,
+          'to right, $primary 10%, $primary2, $secondary, $secondary2, $tertiary, $tertiary2',
+        animation: `${animationColorsGradient} ease-in-out 5s alternate infinite`,
+      },
+    },
+
+    size: {
+      sm: {
+        fontSize: '0.9rem',
+      },
+      sm_large: {
+        fontSize: '1.1rem',
+      },
+      md: {
+        fontSize: '1.5rem',
+      },
+      md_large: {
+        fontSize: '1.8rem',
+      },
+      lg: {
+        fontSize: '2.4rem',
+      },
+      lg_large: {
+        fontSize: '4rem',
       },
     },
   },
