@@ -2,19 +2,16 @@ import { styled } from '@/config/stitches.config';
 
 export const StyledButton = styled('button', {
   textDecoration: 'none',
+  cursor: 'pointer',
 
   defaultVariants: {
     linked: 'true',
+    size: 'sm',
   },
 
   variants: {
     button: {
       primary: {
-        width: '6rem',
-        height: '2.5rem',
-
-        cursor: 'pointer',
-
         background: '$primary',
         color: 'white',
 
@@ -39,6 +36,20 @@ export const StyledButton = styled('button', {
         '&:hover': {
           color: '$primary',
         },
+      },
+    },
+    size: {
+      sm: {
+        width: '6.5rem',
+        height: '3rem',
+      },
+      md: {
+        width: '8rem',
+        height: '3.5rem',
+      },
+      lg: {
+        width: '15rem',
+        height: '3.5rem',
       },
     },
   },

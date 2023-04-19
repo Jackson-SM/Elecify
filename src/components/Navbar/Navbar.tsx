@@ -9,7 +9,14 @@ export const Navbar = () => {
     <StylesNav.StyledHeader>
       <Logo />
       <LinksNavbar />
-      <Button button="primary">Entrar</Button>
+      <div>
+        <Button button="primary" css={{ marginRight: '20px' }}>
+          Registre-se
+        </Button>
+        <Button as="a" linked>
+          Entrar
+        </Button>
+      </div>
     </StylesNav.StyledHeader>
   );
 };
