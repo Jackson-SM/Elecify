@@ -29,10 +29,36 @@ export const { styled, keyframes, getCssText, theme, css, globalCss } =
         textDark: '#F1F1F1',
         textDark2: '#C3C3C3',
       },
+      fontSizes: {
+        normal: '10px',
+        mobile: '8px',
+
+        sm: '1.3rem',
+        sm_x: '1.5rem',
+        sm_xx: '1.6rem',
+
+        md: '1.8rem',
+        md_x: '2.2rem',
+
+        lg: '2.4rem',
+        lg_x: '3.2rem',
+        lg_xx: '6rem',
+      },
+      fonts: {
+        poppins: 'Poppins, sans-serif',
+        montserrat: 'Montserrat, sans-serif',
+      },
     },
     utils: {
       linearGradient: (value: string) => ({
         backgroundImage: `linear-gradient(${value})`,
       }),
+    },
+    media: {
+      screenMobile: '(max-width: 640px)',
+      screenMobile2: '(max-width: 768px)',
+      screenTablet: '(max-width: 1024px)',
+      screenDisplay: '(max-width: 1366px)',
+      screenDisplay2: '(max-width: 1980px)',
     },
   });

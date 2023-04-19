@@ -5,7 +5,14 @@ export const GlobalCss = globalCss({
     boxSizing: 'border-box',
     padding: 0,
     margin: 0,
-    fontFamily: 'Poppins, sans-serif',
+    fontFamily: '$poppins',
+  },
+
+  html: {
+    fontSize: '$normal',
+    '@screenMobile2': {
+      fontSize: '$mobile',
+    },
   },
 
   body: {

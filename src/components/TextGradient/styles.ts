@@ -59,22 +59,25 @@ export const StyledTextGradient = styled('span', {
 
     size: {
       sm: {
-        fontSize: '0.9rem',
+        fontSize: '$sm',
       },
       sm_large: {
-        fontSize: '1.1rem',
+        fontSize: '$sm_x',
       },
       md: {
-        fontSize: '1.5rem',
+        fontSize: '$md',
       },
       md_large: {
-        fontSize: '1.8rem',
+        fontSize: '$md_x',
       },
       lg: {
-        fontSize: '2.4rem',
+        fontSize: '$lg',
       },
       lg_large: {
-        fontSize: '4rem',
+        fontSize: '$lg_x',
+      },
+      lg_largexx: {
+        fontSize: '$lg_xx',
       },
     },
   },

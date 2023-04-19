@@ -10,12 +10,10 @@ export const Navbar = () => {
       <Logo />
       <LinksNavbar />
       <div>
-        <Button button="primary" css={{ marginRight: '20px' }}>
+        <Button button="primary" style={{ marginRight: 20 }}>
           Registre-se
         </Button>
-        <Button as="a" linked>
-          Entrar
-        </Button>
+        <Button as="a">Entrar</Button>
       </div>
     </StylesNav.StyledHeader>
   );

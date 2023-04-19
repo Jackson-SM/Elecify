@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './styles';
 import { TextGradient } from '@/components/TextGradient';
 
-import backgroundSpiral from '../../../assets/background_2.svg';
+import backgroundSpiral from '../../../../assets/background_2.svg';
 
 export const SectionHero = () => {
   return (
@@ -11,10 +11,10 @@ export const SectionHero = () => {
         <img src={backgroundSpiral} />
       </S.StyledBackgroundHero>
       <S.StyledContentHero>
-        <TextGradient size="lg_large">
+        <TextGradient size="lg_largexx">
           Vacuum, A melhor Comunidade de T.I da América Latina.
         </TextGradient>
-        <TextGradient size="sm" themeGradient="with_color_dark_2">
+        <TextGradient size="sm_large" themeGradient="with_color_dark_2">
           Bem-vindo à Vacuum, a comunidade perfeita para desenvolvedores
           iniciantes! Aqui, você encontrará um espaço acolhedor e inclusivo para
           aprender e crescer na programação. Nossa comunidade é formada por

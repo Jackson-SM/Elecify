@@ -42,8 +42,8 @@ export const StyledBackgroundHero = styled('div', {
 
   '& img': {
     animation: `${rotateBackgroundHero} ease-in-out 10s alternate infinite`,
-    height: '150%',
-    width: '150%',
+    height: '100%',
+    width: '100%',
   },
 });
 
@@ -53,4 +53,8 @@ export const StyledContentHero = styled('div', {
 
   maxWidth: '70%',
   textAlign: 'center',
+
+  '@screenDisplay': {
+    maxWidth: '100%',
+  },
 });

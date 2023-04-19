@@ -3,6 +3,8 @@ import { styled } from '@/config/stitches.config';
 export const StyledButton = styled('button', {
   textDecoration: 'none',
   cursor: 'pointer',
+  fontSize: '$sm_x',
+  width: 'max-content',
 
   defaultVariants: {
     linked: 'true',
@@ -15,6 +17,7 @@ export const StyledButton = styled('button', {
         background: '$primary',
         color: 'white',
 
+        padding: '0 10px',
         border: '0',
         borderRadius: '3px',
 
@@ -29,7 +32,6 @@ export const StyledButton = styled('button', {
     linked: {
       true: {
         color: '$text',
-        fontSize: '0.9rem',
 
         transition: 'color ease 130ms',
 
@@ -40,16 +42,13 @@ export const StyledButton = styled('button', {
     },
     size: {
       sm: {
-        width: '6.5rem',
-        height: '3rem',
+        height: '4rem',
       },
       md: {
-        width: '8rem',
-        height: '3.5rem',
+        height: '4.5rem',
       },
       lg: {
-        width: '15rem',
-        height: '3.5rem',
+        height: '4.5rem',
       },
     },
   },

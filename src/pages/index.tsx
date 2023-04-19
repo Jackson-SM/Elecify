@@ -1,17 +1,9 @@
 import React from 'react';
 import { Inter } from 'next/font/google';
-import { Navbar } from '@/components/Navbar';
-import { SectionHero } from '@/templates/Home/SectionHero';
+import Home from '@/templates/Home';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
-  return (
-    <>
-      <Navbar />
-      <main>
-        <SectionHero />
-      </main>
-    </>
-  );
+export default function Index() {
+  return <Home />;
 }
