@@ -8,15 +8,3 @@ export const NavList = styled('ul', {
   gap: 15,
 });
 export const NavItem = styled('li', {});
-
-export const NavLink = styled('a', {
-  color: '$text',
-  textDecoration: 'none',
-  fontSize: '0.9rem',
-
-  transition: 'color ease 130ms',
-
-  '&:hover': {
-    color: '$primary',
-  },
-});
