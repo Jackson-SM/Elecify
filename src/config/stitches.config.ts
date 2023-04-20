@@ -5,7 +5,7 @@ export const { styled, keyframes, getCssText, theme, css, globalCss } =
     theme: {
       colors: {
         background: '#262D34',
-        backgroundLight2: '#2C353D',
+        backgroundLight: '#2C353D',
 
         darkPurple: '#1D112D',
         darkPurple2: '#301B4A',

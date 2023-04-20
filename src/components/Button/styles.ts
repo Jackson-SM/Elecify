@@ -42,13 +42,13 @@ export const StyledButton = styled('button', {
     },
     size: {
       sm: {
-        height: '4rem',
+        height: '4.5rem',
       },
       md: {
-        height: '4.5rem',
+        height: '5rem',
       },
       lg: {
-        height: '4.5rem',
+        height: '5.5rem',
       },
     },
   },

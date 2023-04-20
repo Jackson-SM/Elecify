@@ -11,7 +11,7 @@ export const SectionHero = () => {
         <img src={backgroundSpiral} />
       </S.StyledBackgroundHero>
       <S.StyledContentHero>
-        <TextGradient size="lg_largexx">
+        <TextGradient as="h1" size="lg_largexx">
           Vacuum, A melhor Comunidade de T.I da América Latina.
         </TextGradient>
         <TextGradient size="sm_large" themeGradient="with_color_dark_2">

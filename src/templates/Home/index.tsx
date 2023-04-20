@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/Navbar';
 import React from 'react';
 import { SectionHero } from './Components/SectionHero';
+import { SectionAboutUs } from './Components/SectionAboutUs';
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <main>
         <SectionHero />
+        <SectionAboutUs />
       </main>
     </>
   );
