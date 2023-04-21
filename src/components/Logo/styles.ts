@@ -1,7 +1,7 @@
 import { styled } from '@/config/stitches.config';
 
 export const StyledLogo = styled('div', {
-  width: '15rem',
+  width: '22rem',
   display: 'flex',
   alignItems: 'center',
 
@@ -18,15 +18,5 @@ export const StyledLogo = styled('div', {
         },
       },
     },
-  },
-});
-
-export const LogoVacuumText = styled('span', {
-  fontFamily: 'Montserrat, monospace',
-  fontSize: '2rem',
-
-  '& > span': {
-    color: '$primary',
-    fontWeight: 'bold',
   },
 });

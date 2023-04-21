@@ -6,5 +6,5 @@ export const StyledSectionAboutUs = styled('section', {
   background: 'linear-gradient(to left, transparent 70%, $primary 200%)',
   gap: 20,
 
-  padding: '0 20px',
+  padding: 20,
 });

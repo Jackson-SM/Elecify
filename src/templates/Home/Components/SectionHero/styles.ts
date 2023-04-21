@@ -19,7 +19,7 @@ export const StyledSectionHero = styled('section', {
   alignItems: 'center',
   justifyContent: 'center',
 
-  height: 'calc(80vh - 100px)',
+  height: 'calc(100vh - 100px)',
 
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
@@ -44,6 +44,7 @@ export const StyledBackgroundHero = styled('div', {
     animation: `${rotateBackgroundHero} ease-in-out 20s alternate infinite`,
     height: '100%',
     width: '100%',
+    zIndex: '-1',
   },
 });
 

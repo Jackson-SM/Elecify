@@ -18,6 +18,11 @@ export const StyledTextGradient = styled('span', {
 
   position: 'relative',
 
+  '& > span': {
+    color: '$primary',
+    fontWeight: 'bold',
+  },
+
   defaultVariants: {
     themeGradient: 'animationGradient',
   },
