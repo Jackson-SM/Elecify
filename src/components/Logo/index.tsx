@@ -8,9 +8,8 @@ type LogoProps = React.ComponentProps<typeof StyledLogo.StyledLogo>;
 export const Logo = (props: LogoProps) => {
   return (
     <StyledLogo.StyledLogo {...props}>
-      <img src={`${LogoSvg}`} />
       <TextGradient themeGradient="with_color_dark">
-        <span>V</span>acuum
+        <span>E</span>lecify
       </TextGradient>
     </StyledLogo.StyledLogo>
   );

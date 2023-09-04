@@ -12,17 +12,17 @@ export const SectionHero = () => {
       </S.StyledBackgroundHero>
       <S.StyledContentHero>
         <TextGradient as="h1" size="lg_largexx" themeGradient="with_color_dark">
-          <span>Vacuum</span>, A melhor Comunidade de T.I da América Latina.
+          <span>Elecify</span>, A melhor Comunidade de T.I da América Latina.
         </TextGradient>
         <TextGradient size="sm_large" themeGradient="with_color_dark_2">
-          Bem-vindo à Vacuum, a comunidade perfeita para desenvolvedores
+          Bem-vindo à Elecify, a comunidade perfeita para desenvolvedores
           iniciantes! Aqui, você encontrará um espaço acolhedor e inclusivo para
           aprender e crescer na programação. Nossa comunidade é formada por
           desenvolvedores experientes, ansiosos para compartilhar seu
           conhecimento e apoiar você em sua jornada de aprendizado. Com recursos
           como tutoriais, projetos em grupo e sessões de codificação ao vivo,
           você estará pronto para dominar a arte da programação. Junte-se a nós
-          na Vacuum e vamos codificar juntos!
+          na Elecify e vamos codificar juntos!
         </TextGradient>
       </S.StyledContentHero>
     </S.StyledSectionHero>

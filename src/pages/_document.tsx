@@ -9,8 +9,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Vacuum</title>
-        <meta name="description" content="Vacuum" />
+        <title>Elecify</title>
+        <meta name="description" content="Elecify" />
         <meta name="author" content="Jackson Magalhães" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
