@@ -5,8 +5,8 @@ export const CardAbout = styled('div', {
   borderRadius: '5px',
   padding: '20px',
 
-  backgroundColor: '$backgroundLight',
-
+  background: 'rgba(255, 255, 255, 0.03)',
+  backdropFilter: 'blur(10px)',
   zIndex: '1',
 
   display: 'flex',

@@ -10,12 +10,11 @@ export const SectionAboutUs = () => {
   return (
     <StyledSectionAboutUs>
       <CardAbout title="Comunidade" icon={<Diversity3 />}>
-        Nós somos uma comunidade dedicada a ajudar iniciantes na carreira de
-        programação a se desenvolver e melhorar seus <span>conhecimentos </span>
-        em <span>programação</span>. Começar nesta área pode ser difícil sem
-        <span> experiência</span> ou suporte, por isso criamos uma comunidade
-        acolhedora e inclusiva para fornecer recursos e suporte necessários para
-        crescer como programador.
+        Somos uma comunidade inclusiva que ajuda iniciantes na carreira de
+        <span> programação</span> a desenvolver seus <span>conhecimentos</span>{' '}
+        e habilidades, mesmo sem <span>experiência</span> prévia. Oferecemos
+        recursos e suporte para ajudar na jornada de crescimento como
+        programador.
       </CardAbout>
       <CardAbout title="Aprendizado" icon={<SchoolIcon />}>
         Acreditamos que a melhor maneira de aprender é através da prática e da

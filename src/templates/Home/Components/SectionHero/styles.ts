@@ -16,8 +16,8 @@ export const StyledSectionHero = styled('section', {
 
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center',
   justifyContent: 'center',
+  alignItems: 'center',
 
   height: 'calc(100vh - 100px)',
 
@@ -51,9 +51,9 @@ export const StyledBackgroundHero = styled('div', {
 export const StyledContentHero = styled('div', {
   display: 'flex',
   flexDirection: 'column',
+  gap: 20,
 
-  maxWidth: '70%',
-  textAlign: 'center',
+  maxWidth: '60%',
 
   '@screenDisplay': {
     maxWidth: '100%',
