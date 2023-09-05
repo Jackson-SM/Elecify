@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './styles';
 import { TextGradient } from '@/components/TextGradient';
 
-import backgroundSpiral from 'assets/background_2.svg';
+import backgroundSpiral from '@/assets/background_2.svg';
 
 export const SectionHero = () => {
   return (
